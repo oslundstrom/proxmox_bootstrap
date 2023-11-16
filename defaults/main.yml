@@ -1,5 +1,5 @@
 ---
-proxmox_vm_storage: local                      # the storage to clone the template onto
+proxmox_vm_storage: local-lvm                      # the storage to clone the template onto
 proxmox_bootstrap_user: bootstrap
 proxmox_bootstrap_sshkey: random               # set to "random" to generate a temporary ssh key for the bootstrap user
 
